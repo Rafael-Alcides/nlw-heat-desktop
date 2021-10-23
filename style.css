@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --black1:(#202024);
+  --black2:(#121214);
+  
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  background: #121214;
+  background-image: url(./assest/Desktop.png);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 450px;
+  height: 820px ;
+  display: flex;
+  justify-content: center;
+}
+
+.element {
+  position: absolute;
+  z-index: 1;
+}
+
+.elementB {
+  position: absolute;
+  top: 9.40rem;
+  left:-8px;
+  z-index: 1;
+}
+
+.profile {
+  background:#202024;
+  background-image: url(./assest/mask.png);
+  width: 358px;
+  height: 540px;
+  position: relative;
+  top: 8.75rem;
+  z-index: 0;
+}
+ 
+
+
+
+.profile span {
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+}
+
+.profile > img {
+  margin-top: 4.5rem;
+  height: 11.5rem;
+  width: 10rem;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.profile h1 {
+  margin-top: 1.5rem;
+}
+
+.profile a {
+  margin-top: 0.25rem;
+  color: #fff;
+}
+
+.profile p {
+  margin-top: 2rem;
+}
+
+.profile ul {
+  list-style: none;
+  margin-top: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+
